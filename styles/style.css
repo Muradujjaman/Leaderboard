@@ -213,12 +213,15 @@ Mobile Screen
    }
    hr{
        width: 80%;
-   }
-   
-   
-   
-   
-
-     
+   }    
  }
- 
+ /* ---------------------
+Tab Screen 
+----------------------- */
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    .nav-container, .top-container, .bottom-container{
+        width: 100%;
+    }
+    .players, .blogs, .courses {
+        grid-template-columns: repeat(2, 1fr);
+}
