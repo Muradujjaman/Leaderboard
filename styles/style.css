@@ -47,7 +47,7 @@ nav{
     align-items: center;
 }
 .nav-menu a{
-    margin-right: 36px;
+    margin-left: 36px;
 }
 #nav-logo-text{
     font-size: 24px;
@@ -73,7 +73,7 @@ nav{
 
 }
 .top-container{
-    width: 780px;
+    width: 850px;
     background-color: white;
     padding: 30px;
     border-radius: 5px;
@@ -132,8 +132,70 @@ nav{
  Bottom Section
  --------------------- */
 
+ .bottom-container{
+    width: 850px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+ }
+ .courses{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     column-gap: 25px;
+ }
+ .course{
+     box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.05);
+     padding:10px;
+     border-radius: 12px;
+ }
  
+.course img{
+    width: 225px;
+}
+
+.course-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.course-info p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.course-outher{
+    color: #ED6B4F;
+}
+.fa-solid.fa-star.filled{
+    color:#FFC014;
+    width: 12px;
+}
+.fa-solid.fa-star.empty{
+    color: #AEAEAE;
+    opacity: 0.25;
+}
+.course-timer{
+    color:#ED6B4F;
+    background: #FEE5DF;
+    border-radius: 14.6913px;
+    padding:0 5px;
+    margin-right: 10px;
+}
+.fa-regular .fa-clock{
+    color:#ED6B4F ;
+}
+/*---------------------
+ Medea Quary
+ ---------------------- */
 
 
-
-
+/* ---------------------
+Mobile Screen 
+----------------------- */
+ @media only screen and(max-width:767px) {
+    
+     
+ }
