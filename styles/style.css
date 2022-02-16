@@ -203,13 +203,18 @@ Mobile Screen
    .top-container, .bottom-container{
        width: 100%;
    }
-   .players, .blogs, .courses{
+   .players, .blogs, .courses {
        grid-template-columns: repeat(1, 1fr);
    }
-   .player{
+   .player, .blog, .course{
        flex-direction: column;
        align-items: center;
+       margin:0 50px;
    }
+   hr{
+       width: 80%;
+   }
+   
    
    
    
